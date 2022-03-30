@@ -17,8 +17,8 @@ public class DeckOfCards {
       String suit = suits[deck[i] / 13];
       String rank = ranks[deck[i] % 13];
       System.out.println( rank + " of " + suit);
-    }
-    }
+     }
+   }
 }
 
 class players {
@@ -33,4 +33,15 @@ class players {
             System.out.println("Number of players = " +players);
     }	
 }
+
+class CardSequence {
+	public void playerCardSequence () {
+		int i,j = 1;
+		int player = 2;
+			for (i = 1; i <= player; i++) {
+	            System.out.println("Card" + j++ + " received by player" + i);
+	        }
+	}
+}
+
  

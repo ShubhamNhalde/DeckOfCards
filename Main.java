@@ -9,7 +9,8 @@ public class Main {
 		players play = new players();
 		play.numOfPlayer();
 		
-		 	
+		CardSequence seq = new CardSequence();
+		seq.playerCardSequence();
 	}
 
 }
